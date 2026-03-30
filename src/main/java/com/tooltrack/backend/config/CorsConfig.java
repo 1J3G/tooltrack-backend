@@ -19,7 +19,8 @@ public class CorsConfig {
         // Permite cualquier origen — para producción
         config.setAllowedOrigins(List.of(
                 "http://localhost:5173",
-                "https://tooltrack-frontend.vercel.app"  //← tu URL real de Vercel
+                "http://localhost:5174",
+                "https://tooltrack-frontend.vercel.app"
         ));
 
         config.setAllowedMethods(Arrays.asList(
